@@ -14,7 +14,6 @@ public class WarOfUnitPlace {
         System.out.println(arr);
 
         long ans = 0;
-        long ans2 = 0;
         int size = arr.size();
         int i = 0;
         while(i<=size){
