@@ -6,10 +6,10 @@ public class BinaryToDecimal {
     public long BinaryToDecimalMethod(long num) {
         long ans = 0;
         int mul = 1;
-        while(num > 0){
-            long rem = num%10;
-            num /=10;
-            ans += rem*mul;
+        while (num > 0) {
+            long rem = num % 10;
+            num /= 10;
+            ans += rem * mul;
             mul *= 2;
         }
         return ans;
