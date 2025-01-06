@@ -21,7 +21,6 @@ public class BinaryToOctal {
         }
         return a;
     }
-
     public static void main(String[] args) {
         BinaryToOctal b = new BinaryToOctal();
         Scanner sc = new Scanner(System.in);
