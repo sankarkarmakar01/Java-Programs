@@ -30,5 +30,4 @@ public class OctalToBinary {
         System.out.println("The binary number is: " + ans);
         sc.close();
     }
-
 }
