@@ -10,7 +10,7 @@ public class PowerOfNumber {
         System.out.print("Enter the power: ");
         int p = sc.nextInt();
         int ans = 1;
-        for(int i = 0;i<p;i++){
+        for (int i = 0; i < p; i++) {
             ans *= n;
         }
         System.out.println(ans);

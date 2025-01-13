@@ -9,9 +9,9 @@ public class PrimeOrNot {
         System.out.print("Enter the number: ");
         int num = sc.nextInt();
         int counter = 2;
-        int sqroot = (int)Math.sqrt(num);
-        while(counter <= sqroot){
-            if(num%counter == 0){
+        int sqroot = (int) Math.sqrt(num);
+        while (counter <= sqroot) {
+            if (num % counter == 0) {
                 System.out.println(num + " is not a prime number ");
                 return;
             }
