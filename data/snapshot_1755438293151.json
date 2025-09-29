@@ -1,0 +1,16 @@
+{
+  "books": [
+    {"bookId":1,"title":"Welcome to The World of C","author":"Sankar","available":true}
+  ],
+  "users": [
+    {"userId":1,"name":"admin","role":"ADMIN","borrowedBookIds":[]},
+    {"userId":2,"name":"Sankar","role":"MEMBER","borrowedBookIds":[]},
+    {"userId":3,"name":"Sankar","role":"MEMBER","borrowedBookIds":[]},
+    {"userId":4,"name":"Sankar","role":"MEMBER","borrowedBookIds":[]},
+    {"userId":5,"name":"AAA","role":"MEMBER","borrowedBookIds":[]}
+  ],
+  "transactions": [
+    {"transactionId":1,"bookId":1,"userId":2,"type":"BORROW","date":"2025-08-17T19:14:30.1162044"},
+    {"transactionId":2,"bookId":1,"userId":2,"type":"RETURN","date":"2025-08-17T19:14:40.6330282"}
+  ]
+}
