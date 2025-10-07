@@ -1,4 +1,4 @@
-package CollectionFramework;
+package intermediateJava.collectionFramework;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

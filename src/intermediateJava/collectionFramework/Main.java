@@ -1,4 +1,4 @@
-package CollectionFramework;
+package intermediateJava.collectionFramework;
 
 import java.util.ArrayList;
 import java.util.Arrays;

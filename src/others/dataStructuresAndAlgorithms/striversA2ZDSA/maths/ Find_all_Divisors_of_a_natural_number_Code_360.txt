@@ -1,0 +1,20 @@
+Link:- https://www.naukri.com/code360/problems/find-all-divisors-of-a-natural-number_5587903?count=25&search=Divisor&sort_entity=order&sort_order=ASC&leftPanelTabValue=PROBLEM&customSource=studio_nav
+
+import java.io.*;
+
+import java.util.*;
+
+public class Solution {
+	public static ArrayList<Integer> getAllDivisors(int n){
+		// Write your code here.
+		ArrayList<Integer> ans = new ArrayList<>();
+		int i = 1;
+		while(i <= n) {
+			if(n % i == 0){
+				ans.add(i);
+			}
+			i++;
+		}
+		return ans;
+	}
+}

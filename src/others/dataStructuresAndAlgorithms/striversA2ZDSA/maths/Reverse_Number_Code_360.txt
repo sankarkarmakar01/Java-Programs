@@ -1,0 +1,18 @@
+Link:- https://www.naukri.com/code360/problems/reverse-of-a-number_893271?count=25&page=1&search=reverse%20number&sort_entity=order&sort_order=ASC&leftPanelTabValue=PROBLEM&customSource=studio_nav
+
+import java.util.* ;
+import java.io.*;
+
+public class Solution {
+	public static long reverseNumber(long n) {
+		// Write your code here
+		long rev = 0L;
+		while(n != 0) {
+			long rem = n % 10;
+			rev = (rev * 10) + rem;
+			n /= 10;
+		}
+		return rev;
+	}
+
+}

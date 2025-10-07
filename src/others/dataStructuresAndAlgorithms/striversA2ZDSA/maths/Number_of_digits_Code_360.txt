@@ -1,0 +1,17 @@
+Link:- https://www.naukri.com/code360/problems/number-of-digits_4538242?count=25&page=1&search=number%20of%20digits&sort_entity=order&sort_order=ASC&leftPanelTabValue=PROBLEM&customSource=studio_nav
+
+import java.util.* ;
+import java.io.*;
+
+public class Solution {
+    static int countDigit(long x) {
+        // Write your code here.
+        int count = 0;
+        while(x != 0) {
+            long rem = x % 10;
+            count++;
+            x /= 10;
+        }
+        return count;
+    }
+}

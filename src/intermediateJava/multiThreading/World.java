@@ -1,4 +1,4 @@
-package MultiThreading;
+package intermediateJava.multiThreading;
 
 //public class World extends Thread{
 //    @Override

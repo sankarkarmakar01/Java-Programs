@@ -1,4 +1,4 @@
-package MultiThreading;
+package intermediateJava.multiThreading;
 
 class MyThread4 extends Thread {
     @Override

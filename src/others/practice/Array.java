@@ -7,8 +7,8 @@ public class Array {
         // String[] str = new String[100];
         String[] str2 = {"Hello","World"};
 
-arr[1] = 25;
-str2[0] = "Sankar";
+        arr[1] = 25;
+        str2[0] = "Sankar";
 
 
         for (int i = 0; i < 2; i++) {

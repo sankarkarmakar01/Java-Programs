@@ -1,4 +1,4 @@
-package MultiThreading;
+package intermediateJava.multiThreading;
 
 class MyThreadRunnable1 implements Runnable {
     @Override
